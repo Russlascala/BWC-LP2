@@ -1,0 +1,393 @@
+/* Header */
+#logo{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#tagline{
+    text-align: right;
+    font-size: 21px;
+    display: none;
+}
+
+.fa-globe{
+    color: #E48E95;
+}
+
+/* Top Bar */
+.topBarColor{
+    background-color:#E48E95;
+}
+#headerP{
+    /* font-weight: bold; */
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    padding: 10px;
+
+}
+
+/* Cert Img */
+#cert2019{
+    position: absolute;
+    left: 67%;
+    margin-top: -15px;
+    z-index: 100;
+    width:100px;
+    
+}
+
+/* Banner and Form */
+#bannerImg{
+    background-image: url(../imgs/bg-img.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+    background-position: center center;
+}
+
+/* Style the form */
+#regForm {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  background-color: #fff;
+  /* margin: 100px auto; */
+  /* margin-left: auto; */
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  /* width: 0%; */
+  width: 100%;
+  min-width: 225px;
+  max-width:600px;
+  border-radius: 10px;
+  border: 1px solid #E48E95;
+}
+
+/* #formTop{ background-color: #E48E95; width:100%;} */
+
+#regForm h2{
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); 
+}
+
+#regForm p {
+    margin-bottom: 0;
+}
+
+#regForm h5, #regForm h6{ text-align: center;}
+
+/* h2 {
+    text-align: center; 
+    color:#fff;
+    font-size:35px; 
+} */
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+
+.select-dropdown{
+    padding: 8px;
+    margin-bottom:10px;
+    border-radius: 7px;
+    padding:5px;
+    /* border:2px solid gray; */
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    border-radius: 7px;
+    border:2px solid gray;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #aaaaaa;
+}
+
+select{
+    border-radius: 7px;
+    border:2px solid gray;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #aaaaaa;
+}
+
+#nextBtn{
+    border-radius: 7px;
+}
+
+.nextPrevBtn{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#stepsIndicator{
+    text-align:center; 
+    margin-top:10px;
+}
+
+/* Left Text */
+#textLeft{
+    margin-left: auto;
+    margin-top: auto;
+    color:#fff;
+    background-color: #32363ab4;
+    padding-top:10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+.invalid {
+  background-color: #ffdddd;
+}
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #E48E95;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+button:hover {
+    opacity: 0.9;
+    /*  -webkit-box-shadow: 0px -1px 40px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 40px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 40px -4px rgba(0,0,0,0.75); */
+}
+
+#prevBtn {
+  background-color: #8f8f8f;
+}
+
+#disclaimer{
+    font-size: 13px;
+    color: rgb(240, 240, 240);
+    text-align:left;
+    font-weight: normal;
+}
+
+#secure-logos{
+    width:100%;
+}
+#bwc{ text-transform: uppercase; font-weight:bold;}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #8f8f8f;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #dc6f78;
+}
+
+.list2{
+    margin-top: -15px;
+}
+
+/* Three bullets row section */
+.content-afterform{
+    background-color: #e0e0e0;
+    padding-top: 50px;
+    text-align:center;
+    padding-bottom:50px;
+}
+.icons-top{
+    color:#E48E95;
+    font-size:40px;
+    display: inline-block;
+}
+.startBtn{
+    background: #E48E95;
+    color: #000!important;
+    font-weight: bold;
+    width: 70%;
+    display: block;
+    margin:0 auto;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.75);
+}
+
+.bottoms{
+    max-width:400px;
+    margin-bottom: 15px;
+    background: #FE9DBB;
+}
+
+.startBtn:hover{
+    background: #dc6f78;
+    color: #fff!important;
+    
+}
+
+/* Text and list section */
+#text-section{
+    padding:10px 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Offers Section */
+#offers h2{ 
+    color: #6D6589;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#offers h3{
+    color:#980053;
+}
+
+footer{
+    background: #e0e0e0;
+}
+
+/* Footer Styles */
+footer a{
+    color: #6D6589;
+}
+footer a:hover{
+    color: #977197;
+}
+
+#powerMag{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.offerImgs{
+    margin-bottom: 20px;
+}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+@media screen and (min-width:320px){
+    
+}
+
+/* Greater than 480 px */
+@media screen and (min-width:480px){
+    
+
+  
+  
+}
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+    
+   
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    /* #regForm {
+        width: 0%; 
+    } */
+   
+    #tagline{
+        display: block;
+    }
+
+    .list2{
+        margin-top: 0px;
+    }
+
+    #regForm{
+       margin-top: 100px;
+       margin-bottom: 100px;
+   }
+
+    #headerP{
+        font-size: 20px;
+    }
+    #cert2019{
+    left: 43%;
+    width: 160px;
+    margin-top: -11px;
+   }
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   #cert2019{
+    left: 50%;
+   }
+   #regForm h5, #regForm h6{ text-align: right;}
+}
+
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   #cert2019{
+    left: 50%;
+    margin-top: 30px;
+   }
+   #regForm h5, #regForm h6{ text-align: center;}
+
+   #regForm{
+       margin-top: 150px;
+       margin-bottom: 150px;
+   }
+
+}
+ 
+ 
+
+
+

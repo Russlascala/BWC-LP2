@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business Womens Connection</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; -->
+    
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" href="imgs/favicon.png" type="image/ico" sizes="16x16">
+    </head>
+</head>
+<body>
+    <!-- Header -->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="imgs/logo.png" id="logo" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 mx-auto" id="tagline">
+               <p> <i class="fas fa-globe fa-fw"></i>Excellence is achieved through connection.</p> 
+            </div>
+        </div>
+    </div>
+    <div class="topBarColor">
+        <div class="container">
+            <p id="headerP">CONNECT WITH OTHER BUSINESS WOMEN LOOKING TO NETWORK</p>    
+        </div>
+    </div>
+<img src="imgs/2019-seal.png" class="img-fluid" id="cert2019" alt="">
+    <div id="bannerImg">
+        <div class="container">
+            <div class="row ">
+                <!-- align-items-center -->
+                
+                <div class="col-md-5 col-lg-4 bottomMobile" id="textLeft">
+                    <img src="imgs/mags.png" class="img-fluid" alt="">
+                    <h5 class="left-title white text-left scene-h2 text-shadow">Submit your application to be considered for
+                        inclusion in the<br><span id="bwc">Business Women Connection</span></h5>
+                    <!-- <ul class="col-md-6 float-left list1 " >
+                        <li>Powerful Networking Opportunities</li>
+                        <li>Digital &amp; Print Magazine</li>
+                        <li>Business Exposure</li>
+                    </ul>
+                    <ul class="col-md-6 float-left list2  col-lg-6 col-lg-offset-0" >
+                        <li class="col-lg-12">Personal Branding</li>
+                        <li class="col-lg-12">Connect with Business Women</li>
+                        <li class="col-lg-12">Special Discounts</li>
+                    </ul> -->
+                    <ul class="col-md-6 float-left list1 ">
+                        <li>Network</li>
+                        <li>Brand</li>
+                        <li>Recognition</li>
+                    </ul>
+                    <!-- for mobile needs style="margin-top:-15px;" on this ul -->
+                    <ul class="col-md-6 float-left list2  col-lg-6 col-lg-offset-0">
+                        <li>Empower</li>
+                        <li>Collaborate</li>
+                        <li>Achieve</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 topMobile">
+                    <form id="regForm" action="">
+                        <div id="formTop">
+                            <h5>OFFICIAL COMPLIMENTARY</h5>
+                        </div>
+                        <h6>Candidate Submission Form</h3>
+                    
+                        <!--Body of form-->
+                        <!-- First Row -->
+                        <div class="row">
+                        
+                            <!-- First name form field-->
+                            <div class="md-form col-sm-6">
+                                <input type="text" id="fName-form" class="white-text form-control" placeholder="First Name" required="required">
+                            </div>
+                        
+                            <!-- Last name form field-->
+                            <div class="md-form col-sm-6">
+                                <input type="text" id="Lname-form" class="white-text form-control" placeholder="Last Name" required="required">
+                            </div>
+                        </div>
+                        
+                        <!-- Second Row -->
+                        <div class="row">
+                            <!-- Email form field-->
+                            <div class="md-form col-sm-6">
+                                <input type="email" id="email-form" class="white-text form-control" placeholder="Email" data-error="Bruh, that email address is invalid"
+                                    required="required">
+                            </div>
+                            
+                            <!-- Phone form field-->
+                            <div class="md-form col-sm-6">
+                                <input type="text" id="phone-form" class="white-text form-control" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Phone: 123-456-7890"
+                                    required="required">
+                            </div>
+                        </div>
+
+                        <!-- Third row -->
+                        <div class="row">
+                            <!-- State Dropdown -->
+                            <div class="md-form col-sm-6">
+                            <select id="select-debt" class="select-dropdown white-text form-control">
+                                <option value="" selected hidden>State</option>
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AZ">AZ</option>
+                                <option value="AR">AR</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DE">DE</option>
+                                <option value="DC">DC</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="IA">IA</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="ME">ME</option>
+                                <option value="MD">MD</option>
+                                <option value="MA">MA</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MS">MS</option>
+                                <option value="MO">MO</option>
+                                <option value="MT">MT</option>
+                                <option value="NE">NE</option>
+                                <option value="NV">NV</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NY">NY</option>
+                                <option value="NC">NC</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WV">WV</option>
+                                <option value="WI">WI</option>
+                                <option value="WY">WY</option>
+                            </select>
+                            </div>
+                            <!-- Zip form field-->
+                            <div class="md-form col-sm-6">
+                                <select id="select-debt" class="select-dropdown white-text form-control">
+                                    <option value="" selected hidden>Annual Income</option>
+                                    <option value="">&lt; &dollar;50,000</option>
+                                    <option value="">&dollar;50,000-&dollar;100,000</option>
+                                    <option value="">&dollar;100,001-&dollar;200,000</option>
+                                    <option value="">&dollar;200,001-&dollar;500,000</option>
+                                    <option value="">&gt; &dollar;500,000</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Fourth Row -->
+                        <div class="row">
+                            <!-- Company Name field-->
+                            <div class="md-form col-sm-6">
+                                <input type="company" id="email-form" class="white-text form-control" placeholder="Company Name"
+                                    required="required">
+                            </div>
+                        
+                            <!-- Employment Status field-->
+                            <div class="md-form col-sm-6">
+                                <select id="select-debt" class="select-dropdown white-text form-control">
+                                    <option value="" selected hidden>Employment Status</option>
+                                    <option value="">Employed</option>
+                                    <option value="">Self-Employed</option>
+                                    <option value="">Student</option>
+                                    <option value="">Retired</option>
+                                    <option value="">Unemployed</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Fifth Row -->
+                        <div class="row">
+                            <!-- Job field-->
+                            <div class="md-form col-sm-12">
+                                <select id="select-debt" class="select-dropdown white-text form-control">
+                                    <option value="" selected hidden>What best describes your Job Title?</option>
+                                    <option value="">C-level Executive (CEO, COO, CFO, CTO)</option>
+                                    <option value="">Senior Management (EVP, SVP, VP)</option>
+                                    <option value="">Middle Management (DIrector, Manager, Controller)</option>
+                                    <option value="">Entry Level (Coordinator, Assistant, Cashier)</option>
+                                    <option value="">Other (Medical Professional, Lawyer, Pilot)</option>
+                                    <option value="">Unemployed</option>
+                                    <option value="">Student</option>
+                                    <option value="">Retired</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Sixth Row -->
+                        <div class="row">
+                            <!-- Company field-->
+                            <div class="md-form col-sm-12">
+                                <select id="select-debt" class="select-dropdown white-text form-control">
+                                    <option value="" selected hidden>Which best describes your company?</option>
+                                    <option value="">I work for another company</option>
+                                    <option value="">I own my company</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content-afterform">
+        <div class="container">
+            <h2>WOMEN TODAY ARE DOING MORE THAN EVER</h2>
+            <h4>We want to empower one another to become our very best.</h4>
+            <div class="row" id="three-bullets">
+                <div class="col-md-4">
+                    <i class="fas fa-user-plus fa-fw icons-top"></i>
+                    <h3>Register</h3>
+                    <p>
+                        It’s completely free to
+                        submit your application to our network of women
+                    </p>
+                </div>
+                <div class="col-md-4 ">
+                    <i class="fas fa-address-card fa-fw icons-top"></i>
+                    <h3>Join</h3>
+                    <p>
+                        Get special access to networking, business opportunities, mentoring, empowering, and MORE!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-chart-line fa-fw icons-top"></i>
+                    <h3>Grow</h3>
+                    <p>
+                        Our members can gain the recognition and exposure to achieve their career goals.
+                    </p>
+                </div>
+            </div>
+            <a class="btn btn-lg btn-block animated bounceTrigger startBtn" onclick="scrollToTop(200)">Get Started</a>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <div id="offers">
+        <h2>What We Offer!</h2>
+        <div class="container" style="margin-top:20px;" >
+            <div class="row align-items-center">
+                <div class="col-md-4 bottomMobile">
+                    <img src="imgs/african-3457638_1920.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+                <div class="col-md-8 topMobile">
+                    
+                    <h3>Rewards &amp; Discounts</h3>
+                    <p>
+                        As a member of Business Womens Connection you not only recieve special opportunities to grow yourself or your business. There are also wonderful rewards and discounts you can take advantage of including $7500 plus in benefits annually including: Discount Travel, Discount Buyers Club, Discount Dining, Roadside Assistance,
+                        and $2,400 in Grocery Coupons.In addition, there are discounts on Dental, Pharmacy, Entertainment, Movie Tickets, Attractions, Fitness and more.
+                    </p>
+                </div>
+            </div>   
+        </div>
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    
+                    <h3>Awards &amp; Recognition</h3>
+                    <p>
+                        We honor certain members for their hard work and dedication in their industry, profession or field by providing special
+                        awards and recognition. In addition to profiling their biography on our website, we have also designed specific wall
+                        and desk pieces for them to showcase as a testimony to their success.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imgs/trophy.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="imgs/laptop-2452814_1920.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+                <div class="col-md-8 topMobile">
+                    
+                    <h3>Webinars</h3>
+                    <p>
+                        These web-based seminars are an online way to communicate with other members nationally and internationally. It allows
+                        our members to collaborate, conduct workshops, present, and lecture using video conferencing. A key feature of a
+                        Webinar is its interactive elements, allowing our members the ability to give, receive and discuss information in
+                        real-time. We will also archive the webinar for future viewing.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-lg btn-block animated bounceTrigger startBtn bottoms" onclick="scrollToTop(200)">Get Empowered</a>
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    
+                    <h3>Times Square Photo Recognition</h3>
+                    <p>
+                        Your photo, name and company name are displayed on the famous “Reuters Billboard” in Times Square, NYC. Times Square is
+                        considered the busiest area in Manhattan with approximately 330,000 people passing through daily, many of them
+                        tourists. Over 460,000 pedestrians walk through Times Square on its busiest days. It is also the hub of the Broadway
+                        Theater District and the world’s entertainment industry. It is one of the world’s most visited tourist attractions,
+                        drawing an estimated 50 million visitors annually. This is a great way to attract attention and high visibility for
+                        yourself and your company.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imgs/times-square-2835995_1280.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+        
+            </div>
+        </div>
+
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="imgs/student-849819_1920.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+                <div class="col-md-8 topMobile">
+                    
+                    <h3>Website &amp; Logo Design</h3>
+                    <p>
+                        Our Design Team is available to assist you with designing your website and logo. Displaying your personality through
+                        your site will set you apart from others in your field and potentially create the contacts you are looking for. Our
+                        team will take the time to get to know you and give you the optimum effort to create your vision.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    
+                    <h3>Press &amp; Media Release</h3>
+                    <p>
+                        Your Press Release is a written public announcement covering your personal and business accomplishments designed to
+                        enhance one's exposure and market reach. This newsworthy communication is distributed to radio, television, broadcast,
+                        journalists and social media sites. This release can include your photo or company logo as well as a hyperlink to your
+                        company website so readers can instantly learn about who you are and what your company offers.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imgs/newspapers-444447_1920.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+        
+            </div>
+        </div>
+        <a class="btn btn-lg btn-block animated bounceTrigger startBtn bottoms" onclick="scrollToTop(200)">Start Achieving</a>
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="imgs/podcast-3696504_1920.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+                <div class="col-md-8 topMobile">
+                    
+                    <h3>Podcast Radio &amp; Videos</h3>
+                    <p>
+                        Our podcasts are pre-recorded audio and video interviews which give our members the opportunity to convey a message or story.
+                        This is a great way to increase their exposure and market reach. The podcasts are promoted through our social media.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                
+                <div class="col-md-8">
+                    
+                    <h3>Networkologists</h3>
+                    <p>
+                        We understand how busy life is and how important it is to get the recognition you need to further your career. Our
+                        customer relations team of “Networkologists” are available to assist with potential business connections, branding and
+                        marketing services and search engine optimization to help increase your exposure.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imgs/women-2748752_1920.jpg" class="img-fluid offerImgs" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top:20px;">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="imgs/powermag-small.jpg" id="powerMag" class="img-fluid offerImgs" alt="">
+                </div>
+                <div class="col-md-8 topMobile">
+                   
+                    <h3>Magazine</h3>
+                    <p>
+                        Our quarterly digital and printed magazine features our members. We showcase the stories of
+                        empowering women who have achieved success as well as those looking to advance their careers. We also highlight women
+                        in all different industries and professions including “Big Shots”, celebrities and well-known names.
+                    </p>
+                </div>
+                <a class="btn btn-lg btn-block animated bounceTrigger startBtn bottoms" onclick="scrollToTop(200)">Start Networking</a>
+        
+            </div>
+        </div>
+    </div>
+    <!-- Section last  
+    <div class="container">
+        <div class="row">
+            <div id="text-section">
+                <h5 class="text-center white scene-h2 text-shadow">We showcase the stories of empowering women<br>
+                    who have achieved success as well as those looking to advance their career</h5>
+                <ul class="col-md-6 float-left list1 ">
+                    <li>Webinars</li>
+                    <li>Podcasts</li>
+                    <li>Site &amp; Logo Design</li>
+                </ul>
+                <ul class="col-md-6 float-left list2  col-lg-6 col-lg-offset-0">
+                    <li class="col-lg-12">Times Square billboard placement</li>
+                    <li class="col-lg-12">Press Release</li>
+                    <li class="col-lg-12">Awards &amp; Recognition</li>
+                </ul>
+            </div>
+        </div>
+    </div>-->
+    
+    
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div style=" text-align:center !important; font-size:12px; color:#333;  padding:0 0%; "> <br>
+            <br>
+            <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')" target="_blank">Privacy
+                Policy</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')"
+                target="_blank">Terms and Conditions</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=500,height=600')"
+                target="_blank">Unsubscribe</a>
+            <p style="margin-bottom:0;"> &copy;&nbsp;
+                <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script>
+                &nbsp; BusinessWomensConnection.com. All Rights Reserved. <br>
+                <br>
+                <br>
+            </p>
+        </div>
+    </footer>
+    
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
