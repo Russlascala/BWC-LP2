@@ -11,20 +11,20 @@
 }
 
 .fa-globe{
-    color: #E48E95;
+    color: #9069B5;
 }
 
 /* Top Bar */
 .topBarColor{
-    background-color:#E48E95;
+    background-color:#9069B5;
 }
 #headerP{
     /* font-weight: bold; */
     text-align: center;
     color: white;
+    font-weight: 600;
     margin-bottom: 0;
     padding: 10px;
-
 }
 
 /* Cert Img */
@@ -60,10 +60,10 @@
   min-width: 225px;
   max-width:600px;
   border-radius: 10px;
-  border: 1px solid #E48E95;
+  border: 1px solid #9069B5;
 }
 
-/* #formTop{ background-color: #E48E95; width:100%;} */
+/* #formTop{ background-color: #9069B5; width:100%;} */
 
 #regForm h2{
      text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); 
@@ -144,7 +144,23 @@ select{
     color:#fff;
     background-color: #32363ab4;
     padding-top:10px;
+    
     border-radius: 15px 15px 0px 0px;
+}
+
+#textLeft li {
+    color: #765099;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    list-style-type: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+#textLeft li::before {
+  content: "•  ";
+  /*color: white; or whatever color you prefer */
+  color: #765099;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 
@@ -162,7 +178,7 @@ input.invalid {
 }
 
 button {
-  background-color: #E48E95;
+  background-color: #9069B5;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -229,13 +245,13 @@ button:hover {
     padding-bottom:50px;
 }
 .icons-top{
-    color:#E48E95;
+    color:#9069B5;
     font-size:40px;
     display: inline-block;
 }
 .startBtn{
-    background: #E48E95;
-    color: #000!important;
+    background: #9069B5;
+    color: #fff!important;
     font-weight: bold;
     width: 70%;
     display: block;
@@ -249,11 +265,11 @@ button:hover {
 .bottoms{
     max-width:400px;
     margin-bottom: 15px;
-    background: #FE9DBB;
+    background: #9069B5;
 }
 
 .startBtn:hover{
-    background: #dc6f78;
+    background: #765099;
     color: #fff!important;
     
 }
