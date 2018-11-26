@@ -149,18 +149,18 @@ select{
 }
 
 #textLeft li {
-    color: #765099;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #FEFEDF;
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
     list-style-type: none;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 18px;
 }
 
 #textLeft li::before {
   content: "•  ";
   /*color: white; or whatever color you prefer */
-  color: #765099;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #FEFEDF;
+   /*  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
 }
 
 
